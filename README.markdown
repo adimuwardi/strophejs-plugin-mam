@@ -2,7 +2,15 @@
 
 Sumber Source : [Strophe.RSM](https://github.com/strophe/strophejs-plugin-rsm)
 
-## Install
+Library Strophe Vuejs : Install terlebih dahulu 
+
+1: vue-strophe.js (sumber https://github.com/Zengxm/strophejs)
+
+## Install Pertama
+
+    npm install vue-strophe.js
+	
+## Install Library strophe mam
 
     npm install strophejs-plugin-mam
 
