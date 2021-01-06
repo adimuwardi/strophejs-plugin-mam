@@ -12,7 +12,12 @@ Library Strophe Vuejs : Install terlebih dahulu
 	
 ## Install Library strophe mam
 
-    npm install strophejs-plugin-mam
+    npm install strophejs-plugin-mam-vue
+	
+	or
+	
+	
+    yarn add strophejs-plugin-mam-vue
 
 ## Usage
     connection.mam.query("you@example.com", {

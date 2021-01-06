@@ -1,13 +1,8 @@
 {
-  "name": "strophejs-plugin-mam",
-  "version": "0.0.3",
+  "name": "strophejs-plugin-mam-vue",
+  "version": "0.0.1",
   "description": "Library chat strophe plugin mam dengan ejjabber",
   "main": "lib/strophe.mam.js",
-  "scripts": {
-    "build": "rollup src/strophe.mam.js -f umd -g strophe.js:window -e strophejs-plugin-rsm -o lib/strophe.mam.js -m",
-    "prepublish": "npm run --silent build",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/adimuwardi/strophejs-plugin-mam.git"
@@ -18,13 +13,16 @@
     "xmpp",
     "plugin"
   ],
-  "author": "sezuka-hate",
+  "author": "sezukahate",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/adimuwardi/strophejs-plugin-mam/issues"
   },
   "homepage": "https://github.com/adimuwardi/strophejs-plugin-mam#readme",
-  "devDependencies": {
-    "rollup": "^0.45.0"
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
   }
 }
