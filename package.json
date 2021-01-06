@@ -21,10 +21,10 @@
   "author": "sezuka-hate",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/strophe/strophejs-plugin-mam/issues"
+    "url": "https://github.com/adimuwardi/strophejs-plugin-mam/issues"
   },
-  "homepage": "https://github.com/strophe/strophejs-plugin-mam#readme",
+  "homepage": "https://github.com/adimuwardi/strophejs-plugin-mam#readme",
   "devDependencies": {
     "rollup": "^0.45.0"
-  },
+  }
 }
